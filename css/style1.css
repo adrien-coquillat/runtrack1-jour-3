@@ -1,0 +1,55 @@
+.clignoter {
+    animation: Test 1s infinite;
+    color: blue;
+    border: white solid;
+    background-color: white;
+    width: 500px;
+    border-radius: 20em;
+
+
+}
+
+@keyframes Test {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    background-image: url("image/fond.jpg");
+    font-size: 5ex;
+
+}
+
+.info {
+    color: rgb(255, 0, 0);
+    border: whitesmoke;
+    background-color: white;
+    opacity: 1;
+    border-radius: 100px;
+    border-width: 200px;
+    width: 60%;
+    font-family: 'Ranchers', cursive;
+
+
+}
+
+h1 {
+    text-decoration: overline;
+    font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+}
+
+#fuveau {
+    border: white;
+    border-style: solid;
+
+
+}

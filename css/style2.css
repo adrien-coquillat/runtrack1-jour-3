@@ -1,0 +1,46 @@
+h1 {
+    font-family: 'Ranchers', cursive;
+    background-color: blue;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+.image {
+    background-image: url("../image/avatar-adrien-2.png");
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.image:hover {
+    background-image: url("../image/moi.PNG");
+}
+
+.info {
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    margin-top: 2cm;
+    text-align: center;
+
+
+}
+
+.exp {
+    background-image: url("../image/fond2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 30px;
+    padding: 50px;
+    border-radius: 20%;
+    text-align: center;
+
+}
+
+#fuveau {
+    box-shadow: 1px 1px 12px #555;
+    margin: 0 auto;
+    display: block;
+}
